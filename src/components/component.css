@@ -1,0 +1,13 @@
+.navbar {
+  margin: 10px 30px 10px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#datalist{
+    border: 1px solid rgb(30, 82, 215);
+    margin: 40px 400px 0px 200px;
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+}

@@ -1,8 +1,10 @@
 
 import { useState } from "react";
 import { Link } from "react-router-dom"
+import './component.css';
 export const Navbar = () => {
   const [login , setlogin]= useState(false)
+  
   return (
     <div className="navbar">
       <Link className="nav-home" to="/">
@@ -20,10 +22,7 @@ export const Navbar = () => {
          </Link> : <Link className="nav-login" to="/login">
         Login
       </Link>
-      }
-      
-
-      
+      } 
     </div>
   );
 };
